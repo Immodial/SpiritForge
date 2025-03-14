@@ -1,0 +1,2 @@
+$execute on passengers if entity @s[tag=SpiritForgeOptionInteraction] on attacker run function spiritforge:internal/selection/display/option {Class:"$(Selected)"}
+execute on passengers if entity @s[tag=SpiritForgeOptionInteraction] run data remove entity @s attack

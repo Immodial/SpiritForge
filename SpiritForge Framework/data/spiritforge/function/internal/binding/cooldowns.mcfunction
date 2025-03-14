@@ -1,0 +1,9 @@
+scoreboard players remove @s SFAbilityCooldown0 1
+scoreboard players remove @s SFAbilityCooldown1 1
+scoreboard players remove @s SFAbilityCooldown2 1
+scoreboard players remove @s SFAbilityCooldown3 1
+scoreboard players remove @s SFAbilityCooldown4 1
+scoreboard players remove @s SFAbilityCooldown5 1
+scoreboard players remove @s SFAbilityCooldown6 1
+scoreboard players remove @s SFAbilityCooldown7 1
+scoreboard players remove @s SFAbilityCooldown8 1

@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "use_ability": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

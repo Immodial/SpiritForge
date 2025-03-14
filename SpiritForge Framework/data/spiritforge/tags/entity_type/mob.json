@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#spiritforge:monster",
+        "#spiritforge:animal",
+        "minecraft:allay",
+        "minecraft:iron_golem",
+        "minecraft:snow_golem",
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+    ]
+}

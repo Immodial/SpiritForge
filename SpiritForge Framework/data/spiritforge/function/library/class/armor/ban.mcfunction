@@ -1,0 +1,2 @@
+## >> Prevents a type of armor from being used.
+$execute unless data storage spiritforge namespace:{BannedArmors:["$(Armor)"]} run data modify storage spiritforge $(Class).BannedArmors append value "$(Armor)"

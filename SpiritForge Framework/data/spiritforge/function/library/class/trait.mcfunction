@@ -1,0 +1,1 @@
+$function spiritforge:internal/trait/$(Quality) {Class:"$(Class)",Name:"$(Name)",Description:"$(Description)"}

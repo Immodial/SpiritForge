@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"$(Name)","color":"$(Color)","bold":true},{"text":" - $(Description)","color":"white","bold":false}]

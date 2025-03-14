@@ -1,0 +1,2 @@
+execute unless data storage spiritforge Classes run tellraw @s [{"text":"There are no active classes. Get a SpiritForge Class Datapack, then initialize it using a Pedestal of Awakening!"}]
+execute if data storage spiritforge Classes run tellraw @s [{"text":"Active classes are: "},{"nbt":"Classes","storage":"spiritforge"}]

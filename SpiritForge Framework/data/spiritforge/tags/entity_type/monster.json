@@ -1,0 +1,31 @@
+{
+    "values": [
+        "#spiritforge:skeleton",
+        "#spiritforge:zombie",
+        "#spiritforge:spider",
+        "minecraft:blaze",
+        "minecraft:breeze",
+        "minecraft:creeper",
+        "minecraft:elder_guardian",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:evoker",
+        "minecraft:ghast",
+        "minecraft:guardian",
+        "minecraft:hoglin",
+        "minecraft:illusioner",
+        "minecraft:magma_cube",
+        "minecraft:phantom",
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:pillager",
+        "minecraft:ravager",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:vex",
+        "minecraft:vindicator",
+        "minecraft:warden",
+        "minecraft:witch"
+    ]
+}

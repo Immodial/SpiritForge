@@ -1,0 +1,1 @@
+$data modify storage spiritforge ClassChosen set from storage spiritforge Classes[$(MaxClasses)]

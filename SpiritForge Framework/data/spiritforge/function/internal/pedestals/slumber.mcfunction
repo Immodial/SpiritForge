@@ -1,0 +1,2 @@
+particle minecraft:gust ~ ~0.5 ~ 0.1 0.1 0.1 0 1
+execute if data block ~ ~ ~ Book.components."minecraft:writable_book_content".pages[0] run function spiritforge:internal/pedestals/sleep with block ~ ~ ~ Book.components."minecraft:writable_book_content".pages[0]

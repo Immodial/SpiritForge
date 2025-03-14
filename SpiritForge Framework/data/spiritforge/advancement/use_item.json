@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "use_ability": {
+      "trigger": "minecraft:using_item"
+    }
+  }
+}

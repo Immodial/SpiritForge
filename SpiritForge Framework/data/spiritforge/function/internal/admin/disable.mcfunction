@@ -1,0 +1,2 @@
+tellraw @a [{"text":"SpiritForge has been disabled!","italic":true},{"text":" Most Classes and SpiritForge functionality will not work until Datapacks are Reloaded!","italic":false}]
+schedule clear spiritforge:internal/tick

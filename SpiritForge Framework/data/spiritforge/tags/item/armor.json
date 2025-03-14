@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#spiritforge:leather_armor",
+        "#spiritforge:iron_armor",
+        "#spiritforge:gold_armor",
+        "#spiritforge:diamond_armor",
+        "#spiritforge:netherite_armor",
+        "minecraft:turtle_helmet"
+    ]
+}

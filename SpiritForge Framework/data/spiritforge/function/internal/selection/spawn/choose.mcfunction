@@ -1,0 +1,1 @@
+$tag @s add SpiritForge-$(ClassChosen)

@@ -1,0 +1,2 @@
+particle minecraft:white_smoke ~ ~0.5 ~ 0.25 0.25 0.25 0 2
+execute if data block ~ ~ ~ Book.components."minecraft:writable_book_content".pages[0] run function spiritforge:internal/pedestals/awaken with block ~ ~ ~ Book.components."minecraft:writable_book_content".pages[0]

@@ -1,0 +1,1 @@
+$data modify storage spiritforge $(Class).Traits.Positives append value '[{"text":"+$(Name)","color":"green","hover_event":{"action":"show_text","value":"$(Description)"}}]'

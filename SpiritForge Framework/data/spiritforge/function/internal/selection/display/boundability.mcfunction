@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"$(Name)","color":"$(Color)","bold":true},{"text":" - $(Description)","color":"white","bold":false},{"text":" [","color":"white","bold":false},{"text":"$(Cooldown)00ms Cooldown","color":"blue","bold":false},{"text":", ","color":"white","bold":false},{"text":"$(Energy) Energy","color":"gold","bold":false},{"text":"]","color":"white","bold":false}]

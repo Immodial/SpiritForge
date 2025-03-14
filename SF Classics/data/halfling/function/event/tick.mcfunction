@@ -1,0 +1,1 @@
+execute on vehicle run effect give @s weakness 1 0 true

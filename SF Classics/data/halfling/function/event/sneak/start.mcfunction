@@ -1,0 +1,1 @@
+execute if score @s[nbt={OnGround:0b}] SFAbilityEnergy matches 15.. run function halfling:internal/climb

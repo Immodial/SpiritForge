@@ -1,0 +1,59 @@
+execute if block ~1 ~1 ~1 #minecraft:mineable/pickaxe run setblock ~1 ~1 ~1 air destroy
+execute if block ~ ~1 ~1 #minecraft:mineable/pickaxe run setblock ~ ~1 ~1 air destroy
+execute if block ~-1 ~1 ~1 #minecraft:mineable/pickaxe run setblock ~-1 ~1 ~1 air destroy
+execute if block ~1 ~ ~1 #minecraft:mineable/pickaxe run setblock ~1 ~ ~1 air destroy
+execute if block ~ ~ ~1 #minecraft:mineable/pickaxe run setblock ~ ~ ~1 air destroy
+execute if block ~-1 ~ ~1 #minecraft:mineable/pickaxe run setblock ~-1 ~ ~1 air destroy
+execute if block ~1 ~-1 ~1 #minecraft:mineable/pickaxe run setblock ~1 ~-1 ~1 air destroy
+execute if block ~ ~-1 ~1 #minecraft:mineable/pickaxe run setblock ~ ~-1 ~1 air destroy
+execute if block ~-1 ~-1 ~1 #minecraft:mineable/pickaxe run setblock ~-1 ~-1 ~1 air destroy
+
+execute if block ~1 ~1 ~ #minecraft:mineable/pickaxe run setblock ~1 ~1 ~ air destroy
+execute if block ~ ~1 ~ #minecraft:mineable/pickaxe run setblock ~ ~1 ~ air destroy
+execute if block ~-1 ~1 ~ #minecraft:mineable/pickaxe run setblock ~-1 ~1 ~ air destroy
+execute if block ~1 ~ ~ #minecraft:mineable/pickaxe run setblock ~1 ~ ~ air destroy
+execute if block ~ ~ ~ #minecraft:mineable/pickaxe run setblock ~ ~ ~ air destroy
+execute if block ~-1 ~ ~ #minecraft:mineable/pickaxe run setblock ~-1 ~ ~ air destroy
+execute if block ~1 ~-1 ~ #minecraft:mineable/pickaxe run setblock ~1 ~-1 ~ air destroy
+execute if block ~ ~-1 ~ #minecraft:mineable/pickaxe run setblock ~ ~-1 ~ air destroy
+execute if block ~-1 ~-1 ~ #minecraft:mineable/pickaxe run setblock ~-1 ~-1 ~ air destroy
+
+execute if block ~1 ~1 ~-1 #minecraft:mineable/pickaxe run setblock ~1 ~1 ~-1 air destroy
+execute if block ~ ~1 ~-1 #minecraft:mineable/pickaxe run setblock ~ ~1 ~-1 air destroy
+execute if block ~-1 ~1 ~-1 #minecraft:mineable/pickaxe run setblock ~-1 ~1 ~-1 air destroy
+execute if block ~1 ~ ~-1 #minecraft:mineable/pickaxe run setblock ~1 ~ ~-1 air destroy
+execute if block ~ ~ ~-1 #minecraft:mineable/pickaxe run setblock ~ ~ ~-1 air destroy
+execute if block ~-1 ~ ~-1 #minecraft:mineable/pickaxe run setblock ~-1 ~ ~-1 air destroy
+execute if block ~1 ~-1 ~-1 #minecraft:mineable/pickaxe run setblock ~1 ~-1 ~-1 air destroy
+execute if block ~ ~-1 ~-1 #minecraft:mineable/pickaxe run setblock ~ ~-1 ~-1 air destroy
+execute if block ~-1 ~-1 ~-1 #minecraft:mineable/pickaxe run setblock ~-1 ~-1 ~-1 air destroy
+
+execute if block ~1 ~1 ~1 #minecraft:mineable/shovel run setblock ~1 ~1 ~1 air destroy
+execute if block ~ ~1 ~1 #minecraft:mineable/shovel run setblock ~ ~1 ~1 air destroy
+execute if block ~-1 ~1 ~1 #minecraft:mineable/shovel run setblock ~-1 ~1 ~1 air destroy
+execute if block ~1 ~ ~1 #minecraft:mineable/shovel run setblock ~1 ~ ~1 air destroy
+execute if block ~ ~ ~1 #minecraft:mineable/shovel run setblock ~ ~ ~1 air destroy
+execute if block ~-1 ~ ~1 #minecraft:mineable/shovel run setblock ~-1 ~ ~1 air destroy
+execute if block ~1 ~-1 ~1 #minecraft:mineable/shovel run setblock ~1 ~-1 ~1 air destroy
+execute if block ~ ~-1 ~1 #minecraft:mineable/shovel run setblock ~ ~-1 ~1 air destroy
+execute if block ~-1 ~-1 ~1 #minecraft:mineable/shovel run setblock ~-1 ~-1 ~1 air destroy
+
+execute if block ~1 ~1 ~ #minecraft:mineable/shovel run setblock ~1 ~1 ~ air destroy
+execute if block ~ ~1 ~ #minecraft:mineable/shovel run setblock ~ ~1 ~ air destroy
+execute if block ~-1 ~1 ~ #minecraft:mineable/shovel run setblock ~-1 ~1 ~ air destroy
+execute if block ~1 ~ ~ #minecraft:mineable/shovel run setblock ~1 ~ ~ air destroy
+execute if block ~ ~ ~ #minecraft:mineable/shovel run setblock ~ ~ ~ air destroy
+execute if block ~-1 ~ ~ #minecraft:mineable/shovel run setblock ~-1 ~ ~ air destroy
+execute if block ~1 ~-1 ~ #minecraft:mineable/shovel run setblock ~1 ~-1 ~ air destroy
+execute if block ~ ~-1 ~ #minecraft:mineable/shovel run setblock ~ ~-1 ~ air destroy
+execute if block ~-1 ~-1 ~ #minecraft:mineable/shovel run setblock ~-1 ~-1 ~ air destroy
+
+execute if block ~1 ~1 ~-1 #minecraft:mineable/shovel run setblock ~1 ~1 ~-1 air destroy
+execute if block ~ ~1 ~-1 #minecraft:mineable/shovel run setblock ~ ~1 ~-1 air destroy
+execute if block ~-1 ~1 ~-1 #minecraft:mineable/shovel run setblock ~-1 ~1 ~-1 air destroy
+execute if block ~1 ~ ~-1 #minecraft:mineable/shovel run setblock ~1 ~ ~-1 air destroy
+execute if block ~ ~ ~-1 #minecraft:mineable/shovel run setblock ~ ~ ~-1 air destroy
+execute if block ~-1 ~ ~-1 #minecraft:mineable/shovel run setblock ~-1 ~ ~-1 air destroy
+execute if block ~1 ~-1 ~-1 #minecraft:mineable/shovel run setblock ~1 ~-1 ~-1 air destroy
+execute if block ~ ~-1 ~-1 #minecraft:mineable/shovel run setblock ~ ~-1 ~-1 air destroy
+execute if block ~-1 ~-1 ~-1 #minecraft:mineable/shovel run setblock ~-1 ~-1 ~-1 air destroy

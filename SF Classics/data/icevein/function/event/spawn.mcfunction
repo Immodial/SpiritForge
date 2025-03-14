@@ -1,0 +1,1 @@
+function icevein:internal/stats/load

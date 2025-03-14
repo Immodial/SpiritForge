@@ -1,0 +1,1 @@
+function spiritforge:library/attribute/remove {Attribute:"attack_speed",ID:3486}

@@ -1,0 +1,32 @@
+execute unless entity @e[type=#spiritforge:monster,distance=..30] unless entity @e[type=strider,distance=..30] unless entity @e[type=item,distance=..30] unless function spiritforge:library/conditions/random/20 run playsound minecraft:entity.blaze.ambient player @s ~ ~ ~ 0.05 0 0.05
+execute unless entity @e[type=#spiritforge:monster,distance=..30] unless entity @e[type=strider,distance=..30] unless entity @e[type=item,distance=..30] unless function spiritforge:library/conditions/random/10 run playsound minecraft:particle.soul_escape player @s ~ ~ ~ 0.2 0 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoop matches 0 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.4 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoop matches 10 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoopDouble matches 15 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoopDouble matches 35 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 1 0.2
+execute at @e[type=zombified_piglin,distance=..30] if score @s SFTuneLoop matches 0 run playsound entity.zombified_piglin.angry player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=zombified_piglin,distance=..30] if score @s SFTuneLoop matches 5 run playsound entity.zombified_piglin.angry player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=piglin,distance=..30] if score @s SFTuneLoop matches 0 run playsound block.note_block.bass player @s ~ ~ ~ 0.2 2 0.2
+execute at @e[type=piglin,distance=..30] if score @s SFTuneLoop matches 10 run playsound block.note_block.bass player @s ~ ~ ~ 0.2 2 0.2
+execute at @e[type=piglin,distance=..30] if score @s SFTuneLoop matches 15 run playsound block.note_block.bass player @s ~ ~ ~ 0.2 1.8 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 0 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 5 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 0.4 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 20 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 25 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=hoglin,distance=..30] if score @s SFTuneLoop matches 5 run playsound entity.hoglin.retreat player @s ~ ~ ~ 0.2 1.8 0.2
+execute at @e[type=ghast,distance=..60] if score @s SFTuneLoopDouble matches 30 run playsound entity.ghast.scream player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=ghast,distance=..60] if score @s SFTuneLoopDouble matches 35 run playsound entity.ghast.scream player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=strider,distance=..30] if score @s SFTuneLoop matches 0 run playsound block.note_block.bell player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=strider,distance=..30] if score @s SFTuneLoop matches 10 run playsound block.note_block.bell player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=strider,distance=..30] if score @s SFTuneLoopDouble matches 5 run playsound block.note_block.bell player @s ~ ~ ~ 0.2 2 0.2
+execute at @e[type=strider,distance=..30] if score @s SFTuneLoopDouble matches 15 run playsound block.note_block.bell player @s ~ ~ ~ 0.2 1.8 0.2
+execute at @e[type=strider,distance=..30] if score @s SFTuneLoopDouble matches 25 run playsound block.note_block.bell player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=strider,distance=..30] if score @s SFTuneLoopDouble matches 35 run playsound block.note_block.bell player @s ~ ~ ~ 0.2 1 0.2
+execute at @e[type=magma_cube,distance=..30] if score @s SFTuneLoopDouble matches 5 run playsound block.note_block.pling player @s ~ ~ ~ 0.2 1.2 0.2
+execute at @e[type=magma_cube,distance=..30] if score @s SFTuneLoopDouble matches 25 run playsound block.note_block.pling player @s ~ ~ ~ 0.2 1 0.2
+execute at @e[type=magma_cube,distance=..30] if score @s SFTuneLoopDouble matches 30 run playsound block.note_block.pling player @s ~ ~ ~ 0.2 1 0.2
+execute at @e[type=blaze,distance=..30] if score @s SFTuneLoop matches 0 run playsound entity.blaze.shoot player @s ~ ~ ~ 0.2 1.4 0.2
+execute at @e[type=blaze,distance=..30] if score @s SFTuneLoop matches 10 run playsound entity.blaze.shoot player @s ~ ~ ~ 0.2 1.4 0.2
+execute at @e[type=item,distance=..30] if score @s SFTuneLoopDouble matches 5 run playsound block.note_block.iron_xylophone master @s ~ ~ ~ 0.2 0.4 0.2
+execute at @e[type=item,distance=..30] if score @s SFTuneLoopDouble matches 10 run playsound block.note_block.iron_xylophone master @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=item,distance=..30] if score @s SFTuneLoopDouble matches 25 run playsound block.note_block.iron_xylophone master @s ~ ~ ~ 0.2 0.6 0.2

@@ -1,0 +1,19 @@
+execute unless entity @e[type=#spiritforge:monster,distance=..30] unless entity @e[type=#spiritforge:minecart,distance=..30] unless entity @e[type=item,distance=..30] unless function spiritforge:library/conditions/random/100 run playsound minecraft:ambient.basalt_deltas.additions player @s ~ ~ ~ 0.6 0 0.6
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoop matches 0 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.3 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoop matches 5 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoop matches 10 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:monster,distance=..30] if score @s SFTuneLoop matches 15 run playsound block.note_block.didgeridoo player @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 10 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 13 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:skeleton,distance=..30] if score @s SFTuneLoopDouble matches 15 run playsound block.note_block.xylophone player @s ~ ~ ~ 0.2 0.8 0.2
+execute at @e[type=#spiritforge:spider,distance=..30] if score @s SFTuneLoopDouble matches 20 run playsound block.note_block.hat player @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=#spiritforge:spider,distance=..30] if score @s SFTuneLoopDouble matches 23 run playsound block.note_block.hat player @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=#spiritforge:spider,distance=..30] if score @s SFTuneLoopDouble matches 25 run playsound block.note_block.hat player @s ~ ~ ~ 0.2 0.6 0.2
+execute at @e[type=creeper,distance=..30] if score @s SFTuneLoopDouble matches 30 run playsound entity.creeper.primed player @s ~ ~ ~ 0.2 1.4 0.2
+execute at @e[type=creeper,distance=..30] if score @s SFTuneLoopDouble matches 0 run playsound entity.explode player @s ~ ~ ~ 0.2 1.4 0.2
+execute at @e[type=#spiritforge:minecart,distance=..30] if score @s SFTuneLoopDouble matches 25 run playsound block.netherite_block.hit player @s ~ ~ ~ 0.2 1.8 0.2
+execute at @e[type=#spiritforge:minecart,distance=..30] if score @s SFTuneLoopDouble matches 30 run playsound block.netherite_block.hit player @s ~ ~ ~ 0.2 1.8 0.2
+execute at @e[type=#spiritforge:minecart,distance=..30] if score @s SFTuneLoopDouble matches 35 run playsound entity.item.break player @s ~ ~ ~ 0.2 1.4 0.2
+execute at @e[type=item,distance=..30] if score @s SFTuneLoop matches 3 run playsound block.note_block.iron_xylophone player @s ~ ~ ~ 0.2 1 0.2
+execute at @e[type=item,distance=..30] if score @s SFTuneLoop matches 8 run playsound block.note_block.iron_xylophone player @s ~ ~ ~ 0.2 1.6 0.2
+execute at @e[type=item,distance=..30] if score @s SFTuneLoop matches 13 run playsound block.note_block.iron_xylophone player @s ~ ~ ~ 0.2 1 0.2

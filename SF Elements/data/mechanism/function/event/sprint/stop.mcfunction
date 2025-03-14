@@ -1,0 +1,1 @@
+attribute @s movement_speed modifier remove mechanism:sprint_boost

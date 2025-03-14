@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #mechanism:active_copper unless entity @e[tag=SpiritForge-mechanismActivator,distance=..0.5] run summon marker ~ ~ ~ {Tags:["SpiritForge-mechanismActivator","SpiritForge-mechanismReliant"]}

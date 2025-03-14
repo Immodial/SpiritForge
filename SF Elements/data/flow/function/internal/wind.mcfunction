@@ -1,0 +1,3 @@
+execute positioned ^ ^ ^2 facing ^0.4 ^ ^1 run function spiritforge:library/motion/projectile {Projectile:"breeze_wind_charge",NBT:'{acceleration_power:0.05d}',Force:15}
+execute positioned ^ ^ ^2 run function spiritforge:library/motion/projectile {Projectile:"breeze_wind_charge",NBT:'{acceleration_power:0.05d}',Force:15}
+execute positioned ^ ^ ^2 facing ^-0.4 ^ ^1 run function spiritforge:library/motion/projectile {Projectile:"breeze_wind_charge",NBT:'{acceleration_power:0.05d}',Force:15}

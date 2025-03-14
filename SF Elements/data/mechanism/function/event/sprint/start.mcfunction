@@ -1,0 +1,1 @@
+attribute @s movement_speed modifier add mechanism:sprint_boost 0.04 add_value

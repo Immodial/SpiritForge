@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ run function spiritforge:library/motion/projectile {Projectile:"spectral_arrow",NBT:'{life:1195s,damage:1d,Duration:0,SoundEvent:"minecraft:block.amethyst_cluster.break"}',Force:160}

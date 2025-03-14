@@ -1,0 +1,2 @@
+execute anchored eyes positioned ^ ^ ^ run function spiritforge:library/motion/projectile {Projectile:"fireball",NBT:'{acceleration_power:0.2d}',Force:9}
+playsound entity.blaze.shoot player @a ~ ~ ~ 1 0.6
